@@ -1,6 +1,9 @@
 # Call Center Analytics 2.0 
 A proof of concept using an LLM and latest speech processing tools
 
+![Alt text](analytics_charts/comprehensive_dashboard.png)
+The example dashboard showing agent performance metrics and sentiment trends.
+
 ## From Raw Audio to Actionable Business Intelligence
 
 I decided to build an updated version (2.0) of the [POC I had built earlier](https://github.com/rlagh2/callcenteranalytics) using the latest AI technology and see what can be improved. I have included the full code, the output, sample audio, and a script to create more audio files so anyone interested can run this code as a sample or use it to analyze their call center data to gain insights. This is a POC so, for production use, it would need scaling code and deployment to a highly available infrastructure, robust error handling, security, etc. I have also listed my lessons learned from this exercise below.
@@ -144,12 +147,6 @@ callcenteranalytics20
 ├── call_center_analytics.py    # Main script for call center analytics
 └── README.md                  # Project documentation and usage guide
 ```
-
-## Reports (Sample)
-
-Example comprehensive dashboard showing agent performance metrics and sentiment trends.
-
-![Alt text](analytics_charts/comprehensive_dashboard.png)
 
 ## Technology Stack
 
