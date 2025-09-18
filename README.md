@@ -9,7 +9,7 @@ This repo is *educational/demo only and not intended for production* deployments
 
 ### Lessons Learned
 
-- Code Generation: I used Anthropic Claude to generate the code. It took a few iterations, but the final output mostly ran without needing much editing. I've had good success with Claude more than other LLMs for Python (and React Native) code generation. The trick I use is to ask for code in increments with concrete input and output rather than the a full solution which can introduce bugs which are normally hard to detect and clean up. 
+- Code Generation: I used Anthropic Claude to generate the code. It took a few iterations, but the final output mostly ran without needing much editing. I've had good success with Claude more than other LLMs for Python (and React Native) code generation. The trick I use is to ask for code in increments with concrete input and output rather than the full solution which can introduce bugs which are normally hard to detect and clean up. 
 
 - Audio Data: Getting audio wasn't easy last time, but using OpenAI, I was able to easily generate WAV files from scripts that I generated with Claude. The code is included if you want to do the same.
 
