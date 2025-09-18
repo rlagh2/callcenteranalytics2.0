@@ -1,1 +1,188 @@
-test
+[
+  [
+    ["agent", "Hello, thank you for calling. How can I help you today?"],
+    ["customer", "Hi, I’m having trouble logging into my account."],
+    ["agent", "I’m sorry to hear that. Let me help you reset your password."],
+    ["customer", "Thank you, that would be great."],
+    ["agent", "I have reset your password. Please try again and let me know if it workd."],
+    ["customer", "Yes. Thanks, I can log in now. The issue is resolved."]
+  ],
+  [
+    ["agent", "Good afternoon, this is customer support. How can I assist you?"],
+    ["customer", "Hi, I was double-charged for my order yesterday."],
+    ["agent", "I apologize for the inconvenience. Can I have your order number please?"],
+    ["customer", "Sure, it’s 45219."],
+    ["agent", "Thank you. I’ll process a refund right away."],
+    ["customer", "Thanks, I appreciate your help."],
+    ["agent", "You’re welcome! Can you check to confirm the refund went through?"],
+    ["customer", "One minute!. Yes, I see the refund now. The issue is fixed. Thanks"],
+    ["agent", "You're welcome! Goodbye."]
+  ],
+  [
+    ["agent", "Welcome to Tech Support, how can I help you today?"],
+    ["customer", "My internet keeps disconnecting every few minutes."],
+    ["agent", "I understand. Have you tried restarting your modem yet?"],
+    ["customer", "Yes, several times, but the problem keeps coming back."],
+    ["agent", "Okay, I’ll run a line test and escalate if needed."],
+    ["customer", "Thanks, I appreciate it."],
+    ["agent", "The test shows a line issue. A technician will visit tomorrow."],
+    ["customer", "Great, thank you for your help."],
+    ["agent", "You’re welcome! Have a good day."]
+  ],
+  [
+    ["agent", "Hello, this is the billing department. What can I do for you today?"],
+    ["customer", "Hi, I need a copy of my last month’s invoice."],
+    ["agent", "Of course, may I confirm your email address on file?"],
+    ["customer", "Yes, it’s customer@email.com."],
+    ["agent", "Perfect. I’ve sent the invoice just now, please check your inbox."],
+    ["customer", "Got it, thank you very much."],
+    ["agent", "You’re welcome! Let us know if you need anything else."]
+  ],
+  [
+    ["agent", "Thank you for calling. How can I assist you?"],
+    ["customer", "I’d like to cancel my subscription effective immediately."],
+    ["agent", "I’m sorry to hear that. Could you share the reason for canceling?"],
+    ["customer", "I just don’t use the service enough."],
+    ["agent", "I understand. Your subscription is now canceled, and you won’t be charged again."],
+    ["customer", "Thank you for your help. My issue is resolved."],
+    ["agent", "You’re welcome! Have a great day."]
+  ],
+  [
+    ["agent", "Hi, thank you for calling product support. How can I help?"],
+    ["customer", "My new coffee machine isn’t turning on at all."],
+    ["agent", "I’m sorry about that. Is it plugged in securely?"],
+    ["customer", "Yes, I’ve checked the outlet too."],
+    ["agent", "Okay, we’ll replace it under warranty. I’ll send you the return instructions."],
+    ["customer", "Thanks, I appreciate your help."],
+    ["agent", "You’re welcome! Expect an email shortly."],
+    ["customer", "Got it, thanks again."],
+    ["agent", "Have a great day!"]
+  ],
+  [
+    ["agent", "Good morning, this is travel reservations. How may I help?"],
+    ["customer", "Hi, I need to change the date of my flight."],
+    ["agent", "Sure, can I have your booking reference?"],
+    ["customer", "It’s AB4567."],
+    ["agent", "Thank you. I’ve moved your flight to next Friday at the same time."],
+    ["customer", "Perfect, thanks for your help."],
+    ["agent", "You’re welcome! Have a safe trip."]
+  ],
+  [
+    ["agent", "Customer care, how can I assist you today?"],
+    ["customer", "I was supposed to get a package yesterday, but it hasn’t arrived."],
+    ["agent", "I apologize for the delay. Can you provide the tracking number?"],
+    ["customer", "Yes, it’s TR998877."],
+    ["agent", "Thanks. It shows it’s out for delivery and should arrive today."],
+    ["customer", "Great, I’ll keep an eye out for it. Thanks!"],
+    ["agent", "You’re welcome! Let us know if you need anything else."]
+  ],
+  [
+    ["agent", "Hello, you’ve reached the IT help desk. How can I help you?"],
+    ["customer", "My company email isn’t syncing on my phone."],
+    ["agent", "Let’s fix that. Are you using the Outlook app or the native mail app?"],
+    ["customer", "I’m using Outlook."],
+    ["agent", "Got it. Please remove the account and add it back with your credentials."],
+    ["customer", "Okay, I did that. It’s working now, thank you!"],
+    ["agent", "Great to hear! Let us know if you need further assistance."]
+  ],
+  [
+    ["agent", "Hi, this is the loyalty rewards desk. How may I assist?"],
+    ["customer", "I want to redeem my points for a gift card."],
+    ["agent", "Great. You have 12,000 points available. Which card would you like?"],
+    ["customer", "Amazon, please."],
+    ["agent", "Done. You’ll receive the gift card by email within 24 hours."],
+    ["customer", "Awesome, thanks for your help."],
+    ["agent", "You’re welcome! Enjoy your gift card."]
+  ],
+  [
+    ["agent", "Hello, thank you for calling. How may I assist you?"],
+    ["customer", "Hi, my package hasn’t arrived and it’s already 5 days late."],
+    ["agent", "I’m really sorry. Unfortunately, I can only see that it’s delayed in transit."],
+    ["customer", "So you don’t know when I’ll get it?"],
+    ["agent", "I’m afraid not, but I recommend checking the courier’s website for updates."],
+    ["customer", "Alright, I’ll do that. Thanks anyway."],
+    ["agent", "You’re welcome! Have a good day."]
+  ],
+  [
+    ["agent", "Customer support, how can I help today?"],
+    ["customer", "I want to change the destination of my flight booked for tomorrow."],
+    ["agent", "I understand, but I’m unable to change destinations once the ticket is issued."],
+    ["customer", "So I can’t switch it at all?"],
+    ["agent", "Unfortunately not, you’d need to cancel and rebook a new ticket."],
+    ["customer", "That’s disappointing, but I understand. Thanks for your help."],
+    ["agent", "You’re welcome! Let us know if you need anything else."]
+  ],
+  [
+    ["agent", "Good afternoon, billing department here. How can I assist?"],
+    ["customer", "I was overcharged last month, can you issue a refund?"],
+    ["agent", "I checked your account. The extra charge is from a third-party service provider."],
+    ["customer", "So you can’t refund me directly?"],
+    ["agent", "Correct, you’ll need to contact that provider to dispute the charge."],
+    ["customer", "Alright, I’ll reach out to them. Thanks for the info."],
+    ["agent", "You’re welcome! Have a great day."]
+  ],
+  [
+    ["agent", "Hello, IT help desk speaking. What can I do for you?"],
+    ["customer", "My work laptop won’t start at all. It’s just dead."],
+    ["agent", "I’m sorry to hear that. Unfortunately, I can’t troubleshoot hardware failures remotely."],
+    ["customer", "So what do I do now?"],
+    ["agent", "You’ll need to bring it into the office for our onsite team to repair."],
+    ["customer", "Alright, I’ll do that. Thanks for your help."],
+    ["agent", "You’re welcome! Have a good day."]
+  ],
+  [
+    ["agent", "Thank you for calling support. How can I help you?"],
+    ["customer", "I need to remove a late fee from my credit card statement."],
+    ["agent", "I understand, but according to policy I can’t waive late fees once applied."],
+    ["customer", "Even though it’s my first time?"],
+    ["agent", "Yes, I’m sorry, but the system doesn’t allow me to make exceptions."],
+    ["customer", "Well that is not helpful. Thanks anyway."],
+    ["agent", "You’re welcome! Let us know if you need anything else."]
+  ],
+  [
+    ["agent", "Hi, this is product support. What seems to be the problem?"],
+    ["customer", "The replacement part I need is out of stock. Can you send me one?"],
+    ["agent", "I wish I could, but we don’t have any available in our warehouse."],
+    ["customer", "When will it be back in stock?"],
+    ["agent", "I don’t have that information. Please check the website for updates."],
+    ["customer", "Well, that’s frustrating. Thanks anyway."],
+    ["agent", "You’re welcome! Have a great day."]
+  ],
+  [
+    ["agent", "Support line, how can I assist?"],
+    ["customer", "I accidentally sent money to the wrong person with your app."],
+    ["agent", "I’m sorry, but once a transfer is completed, we can’t reverse it."],
+    ["customer", "So my money’s gone?"],
+    ["agent", "You’ll need to reach out to the recipient directly and request a refund."],
+    ["customer", "Wish there was a better way."],
+    ["agent", "Sorry I couldn’t be of more help. Have a good day."]
+  ],
+  [
+    ["agent", "Good morning, this is subscription services. How may I help?"],
+    ["customer", "I’d like a refund for the annual plan I just renewed."],
+    ["agent", "I understand, but our policy doesn’t allow refunds on renewals."],
+    ["customer", "So there’s no way to get my money back?"],
+    ["agent", "Correct, though you’ll still have full access until the end of the year."],
+    ["customer", "That’s disappointing, but I understand. Thanks for your help."],
+    ["agent", "You’re welcome! Let us know if you need anything else."]
+  ],
+  [
+    ["agent", "Hello, you’ve reached the travel desk. What can I do for you?"],
+    ["customer", "My flight was canceled and I need you to book me on another airline."],
+    ["agent", "I’m really sorry, but I can only rebook you on our own airline."],
+    ["customer", "So I have to arrange something myself?"],
+    ["agent", "Yes, if you’d like another carrier, you’ll need to book separately."],
+    ["customer", "Well that’s inconvenient. Thanks anyway."],
+    ["agent", "You’re welcome! Have a good day."]
+  ],
+  [
+    ["agent", "Welcome to tech support. How can I assist you today?"],
+    ["customer", "My phone is completely dead and won’t charge at all."],
+    ["agent", "I understand. Unfortunately, I can’t repair physical devices over the phone."],
+    ["customer", "So there’s nothing you can do now?"],
+    ["agent", "Correct. Please bring the phone to a service center for inspection."],
+    ["customer", "Wish there was a better solution."],
+    ["agent", "Sorry I couldn’t be of more help. Have a good day."],
+    ["customer", "Thanks anyway."]
+  ]
+]
