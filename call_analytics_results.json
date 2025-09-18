@@ -1,0 +1,2629 @@
+{
+  "analysis_timestamp": "2025-09-16T17:29:41.510023",
+  "aggregated_results": {
+    "total_calls": 22,
+    "avg_duration": 28.731772727272727,
+    "resolution_rate": 0.18181818181818182,
+    "escalation_rate": 0.09090909090909091,
+    "satisfaction_rate": 0.9545454545454546,
+    "avg_sentiment": 2.3636363636363638,
+    "avg_agent_ratio": 0.5969221551635308,
+    "recommendations": [
+      "Low resolution rate - review troubleshooting procedures"
+    ]
+  },
+  "individual_calls": [
+    {
+      "filename": "call_center_dialogue_1.wav",
+      "call_duration": 23.72,
+      "total_turns": 6,
+      "agent_talk_ratio": 0.5202360876897133,
+      "customer_talk_ratio": 0.47976391231028664,
+      "sentiment_score": 2,
+      "positive_indicators": 4,
+      "negative_indicators": 2,
+      "resolved": true,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 2,
+      "turn_taking_frequency": 15.177065767284992,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.599,
+            "end": 4.239,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.239,
+            "end": 7.879,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 7.879,
+            "end": 11.779,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 11.779,
+            "end": 14.599,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.599,
+            "end": 19.399,
+            "word_count": 15
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.399,
+            "end": 24.319,
+            "word_count": 11
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thank",
+            "great",
+            "thanks"
+          ],
+          "negative_indicators": [
+            "trouble",
+            "issue"
+          ],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thank",
+            "please",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 63
+        },
+        "outcomes": {
+          "resolved": true,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "having trouble",
+            "sorry to"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 6,
+          "agent_turns": 3,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.953333333333333,
+          "agent_talk_ratio": 0.5202360876897133,
+          "customer_talk_ratio": 0.47976391231028664,
+          "turn_taking_frequency": 15.177065767284992,
+          "longest_silence": 0,
+          "call_duration": 23.72
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_10.wav",
+      "call_duration": 23.34,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6769494430162811,
+      "customer_talk_ratio": 0.3230505569837189,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 17.994858611825194,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 4.639,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.639,
+            "end": 8.619,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.619,
+            "end": 13.0,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.0,
+            "end": 14.619,
+            "word_count": 2
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.619,
+            "end": 19.059,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.059,
+            "end": 21.0,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 21.0,
+            "end": 23.919,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "great",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "please",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 56
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.3342857142857145,
+          "agent_talk_ratio": 0.6769494430162811,
+          "customer_talk_ratio": 0.3230505569837189,
+          "turn_taking_frequency": 17.994858611825194,
+          "longest_silence": 0,
+          "call_duration": 23.34
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_11.wav",
+      "call_duration": 24.72,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5857200647249191,
+      "customer_talk_ratio": 0.41427993527508084,
+      "sentiment_score": 3,
+      "positive_indicators": 3,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 2,
+      "turn_taking_frequency": 16.990291262135923,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 3.579,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.579,
+            "end": 8.26,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.26,
+            "end": 13.279,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.279,
+            "end": 16.119,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.119,
+            "end": 20.439,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 20.439,
+            "end": 23.159,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.159,
+            "end": 25.299,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thanks",
+            "good"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 67
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "really sorry",
+            "afraid not"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.531428571428571,
+          "agent_talk_ratio": 0.5857200647249191,
+          "customer_talk_ratio": 0.41427993527508084,
+          "turn_taking_frequency": 16.990291262135923,
+          "longest_silence": 0,
+          "call_duration": 24.72
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_12.wav",
+      "call_duration": 27.32,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5753660322108346,
+      "customer_talk_ratio": 0.4246339677891654,
+      "sentiment_score": 1,
+      "positive_indicators": 1,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 15.373352855051245,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.599,
+            "end": 3.299,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.299,
+            "end": 7.899,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 7.899,
+            "end": 12.679,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 12.679,
+            "end": 14.64,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.64,
+            "end": 18.539,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 18.539,
+            "end": 23.579,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.579,
+            "end": 27.919,
+            "word_count": 10
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 69
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "unable to"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.902857142857143,
+          "agent_talk_ratio": 0.5753660322108346,
+          "customer_talk_ratio": 0.4246339677891654,
+          "turn_taking_frequency": 15.373352855051245,
+          "longest_silence": 0,
+          "call_duration": 27.32
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_13.wav",
+      "call_duration": 26.399,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6045683548619266,
+      "customer_talk_ratio": 0.3954316451380733,
+      "sentiment_score": 2,
+      "positive_indicators": 3,
+      "negative_indicators": 1,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 15.909693548998067,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.56,
+            "end": 5.119,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 5.119,
+            "end": 9.139,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 9.139,
+            "end": 13.579,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.579,
+            "end": 16.459,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.459,
+            "end": 21.26,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 21.26,
+            "end": 24.799,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 24.799,
+            "end": 26.959,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good",
+            "thanks",
+            "great"
+          ],
+          "negative_indicators": [
+            "issue"
+          ],
+          "polite_indicators": [
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 66
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.7712857142857144,
+          "agent_talk_ratio": 0.6045683548619266,
+          "customer_talk_ratio": 0.3954316451380733,
+          "turn_taking_frequency": 15.909693548998067,
+          "longest_silence": 0,
+          "call_duration": 26.399
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_14.wav",
+      "call_duration": 25.74,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6426573426573428,
+      "customer_talk_ratio": 0.35734265734265724,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 16.317016317016318,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 4.44,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.44,
+            "end": 8.699,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.699,
+            "end": 14.699,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 14.699,
+            "end": 16.139,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.139,
+            "end": 20.62,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 20.62,
+            "end": 24.119,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 24.119,
+            "end": 26.319,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks",
+            "good"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "sorry",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 69
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "sorry to"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.677142857142857,
+          "agent_talk_ratio": 0.6426573426573428,
+          "customer_talk_ratio": 0.35734265734265724,
+          "turn_taking_frequency": 16.317016317016318,
+          "longest_silence": 0,
+          "call_duration": 25.74
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_15.wav",
+      "call_duration": 27.461,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6431302574560286,
+      "customer_talk_ratio": 0.3568697425439714,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 15.294417537598777,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.539,
+            "end": 3.98,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.98,
+            "end": 8.22,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.22,
+            "end": 13.1,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.1,
+            "end": 14.899,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.899,
+            "end": 19.239,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.239,
+            "end": 23.0,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.0,
+            "end": 28.0,
+            "word_count": 10
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 70
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "sorry"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.923,
+          "agent_talk_ratio": 0.6431302574560286,
+          "customer_talk_ratio": 0.3568697425439714,
+          "turn_taking_frequency": 15.294417537598777,
+          "longest_silence": 0,
+          "call_duration": 27.461
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_16.wav",
+      "call_duration": 25.72,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5715007776049766,
+      "customer_talk_ratio": 0.42849922239502336,
+      "sentiment_score": 1,
+      "positive_indicators": 2,
+      "negative_indicators": 1,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 16.329704510108865,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 4.4,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.4,
+            "end": 9.22,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 9.22,
+            "end": 13.279,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.279,
+            "end": 15.759,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 15.759,
+            "end": 20.379,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 20.379,
+            "end": 24.1,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 24.1,
+            "end": 26.299,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks",
+            "great"
+          ],
+          "negative_indicators": [
+            "problem"
+          ],
+          "polite_indicators": [
+            "please",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 67
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.6742857142857144,
+          "agent_talk_ratio": 0.5715007776049766,
+          "customer_talk_ratio": 0.42849922239502336,
+          "turn_taking_frequency": 16.329704510108865,
+          "longest_silence": 0,
+          "call_duration": 25.72
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_17.wav",
+      "call_duration": 21.939999999999998,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6399270738377392,
+      "customer_talk_ratio": 0.36007292616226083,
+      "sentiment_score": 0,
+      "positive_indicators": 1,
+      "negative_indicators": 1,
+      "resolved": false,
+      "escalated": true,
+      "customer_satisfied": false,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 19.143117593436646,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 2.639,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 2.639,
+            "end": 7.039,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 7.039,
+            "end": 11.52,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 11.52,
+            "end": 13.159,
+            "word_count": 4
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 13.159,
+            "end": 17.739,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 17.739,
+            "end": 19.6,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 19.6,
+            "end": 22.519,
+            "word_count": 11
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good"
+          ],
+          "negative_indicators": [
+            "wrong"
+          ],
+          "polite_indicators": [
+            "sorry",
+            "sorry"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 63
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": true,
+          "callback_scheduled": false,
+          "customer_satisfied": false,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "sorry"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.134285714285714,
+          "agent_talk_ratio": 0.6399270738377392,
+          "customer_talk_ratio": 0.36007292616226083,
+          "turn_taking_frequency": 19.143117593436646,
+          "longest_silence": 0,
+          "call_duration": 21.939999999999998
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_18.wav",
+      "call_duration": 26.78,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5735623599701268,
+      "customer_talk_ratio": 0.4264376400298731,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 15.683345780433157,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.56,
+            "end": 4.799,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.799,
+            "end": 8.639,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.639,
+            "end": 13.219,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.219,
+            "end": 16.158,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.158,
+            "end": 19.619,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.619,
+            "end": 24.26,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 24.26,
+            "end": 27.34,
+            "word_count": 10
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 72
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.8257142857142856,
+          "agent_talk_ratio": 0.5735623599701268,
+          "customer_talk_ratio": 0.4264376400298731,
+          "turn_taking_frequency": 15.683345780433157,
+          "longest_silence": 0,
+          "call_duration": 26.78
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_19.wav",
+      "call_duration": 24.341,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5883077934349451,
+      "customer_talk_ratio": 0.41169220656505484,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 17.254837516946715,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.599,
+            "end": 4.299,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.299,
+            "end": 8.32,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.32,
+            "end": 12.679,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 12.679,
+            "end": 15.519,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 15.519,
+            "end": 19.94,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.94,
+            "end": 23.1,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.1,
+            "end": 24.94,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks",
+            "good"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "sorry",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 68
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "really sorry"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.4772857142857143,
+          "agent_talk_ratio": 0.5883077934349451,
+          "customer_talk_ratio": 0.41169220656505484,
+          "turn_taking_frequency": 17.254837516946715,
+          "longest_silence": 0,
+          "call_duration": 24.341
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_2.wav",
+      "call_duration": 34.879,
+      "total_turns": 9,
+      "agent_talk_ratio": 0.5349350612116172,
+      "customer_talk_ratio": 0.46506493878838284,
+      "sentiment_score": 4,
+      "positive_indicators": 5,
+      "negative_indicators": 1,
+      "resolved": true,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 15.482095243556296,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 1.0,
+            "end": 5.679,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 5.679,
+            "end": 9.019,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 9.019,
+            "end": 13.34,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.34,
+            "end": 17.479,
+            "word_count": 3
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 17.479,
+            "end": 20.639,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 20.639,
+            "end": 23.26,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.26,
+            "end": 27.659,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 27.659,
+            "end": 33.78,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 33.78,
+            "end": 35.879,
+            "word_count": 3
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good",
+            "thank",
+            "thanks",
+            "appreciate",
+            "thanks"
+          ],
+          "negative_indicators": [
+            "issue"
+          ],
+          "polite_indicators": [
+            "please",
+            "thank",
+            "thanks",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 75
+        },
+        "outcomes": {
+          "resolved": true,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 9,
+          "agent_turns": 5,
+          "customer_turns": 4,
+          "avg_turn_duration": 3.8754444444444442,
+          "agent_talk_ratio": 0.5349350612116172,
+          "customer_talk_ratio": 0.46506493878838284,
+          "turn_taking_frequency": 15.482095243556296,
+          "longest_silence": 0,
+          "call_duration": 34.879
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_20.wav",
+      "call_duration": 26.96,
+      "total_turns": 8,
+      "agent_talk_ratio": 0.591913946587537,
+      "customer_talk_ratio": 0.40808605341246285,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 17.80415430267062,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.56,
+            "end": 4.44,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.44,
+            "end": 8.42,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.42,
+            "end": 13.159,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.159,
+            "end": 16.18,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.18,
+            "end": 20.279,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 20.279,
+            "end": 22.399,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 22.399,
+            "end": 25.639,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 25.639,
+            "end": 27.52,
+            "word_count": 2
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "please",
+            "sorry",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 68
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 8,
+          "agent_turns": 4,
+          "customer_turns": 4,
+          "avg_turn_duration": 3.37,
+          "agent_talk_ratio": 0.591913946587537,
+          "customer_talk_ratio": 0.40808605341246285,
+          "turn_taking_frequency": 17.80415430267062,
+          "longest_silence": 0,
+          "call_duration": 26.96
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_3.wav",
+      "call_duration": 30.24,
+      "total_turns": 9,
+      "agent_talk_ratio": 0.5331679894179894,
+      "customer_talk_ratio": 0.4668320105820106,
+      "sentiment_score": 3,
+      "positive_indicators": 5,
+      "negative_indicators": 2,
+      "resolved": false,
+      "escalated": true,
+      "customer_satisfied": true,
+      "technical_issue": true,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 17.857142857142858,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 3.5,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.5,
+            "end": 8.319,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.319,
+            "end": 11.88,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 11.88,
+            "end": 16.799,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 16.799,
+            "end": 19.979,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.979,
+            "end": 22.059,
+            "word_count": 4
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 22.059,
+            "end": 26.5,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 26.5,
+            "end": 28.799,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 28.799,
+            "end": 30.819,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks",
+            "appreciate",
+            "great",
+            "thank",
+            "good"
+          ],
+          "negative_indicators": [
+            "problem",
+            "issue"
+          ],
+          "polite_indicators": [
+            "thanks",
+            "thank"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 72
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": true,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": true
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 9,
+          "agent_turns": 5,
+          "customer_turns": 4,
+          "avg_turn_duration": 3.36,
+          "agent_talk_ratio": 0.5331679894179894,
+          "customer_talk_ratio": 0.4668320105820106,
+          "turn_taking_frequency": 17.857142857142858,
+          "longest_silence": 0,
+          "call_duration": 30.24
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_4.wav",
+      "call_duration": 22.339000000000002,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6258113612963875,
+      "customer_talk_ratio": 0.3741886387036126,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 18.801199695599625,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.56,
+            "end": 4.799,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.799,
+            "end": 8.159,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.159,
+            "end": 11.6,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 11.6,
+            "end": 13.979,
+            "word_count": 3
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 13.979,
+            "end": 17.38,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 17.38,
+            "end": 20.0,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 20.0,
+            "end": 22.899,
+            "word_count": 10
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "perfect",
+            "thank"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "please",
+            "thank"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 63
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": [
+            "customer@email.com"
+          ]
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.1912857142857143,
+          "agent_talk_ratio": 0.6258113612963875,
+          "customer_talk_ratio": 0.3741886387036126,
+          "turn_taking_frequency": 18.801199695599625,
+          "longest_silence": 0,
+          "call_duration": 22.339000000000002
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_5.wav",
+      "call_duration": 27.001,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5793118773378765,
+      "customer_talk_ratio": 0.4206881226621235,
+      "sentiment_score": 2,
+      "positive_indicators": 3,
+      "negative_indicators": 1,
+      "resolved": true,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 15.554979445205733,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.599,
+            "end": 3.619,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.619,
+            "end": 8.899,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.899,
+            "end": 12.519,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 12.519,
+            "end": 15.139,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 15.139,
+            "end": 22.02,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 22.02,
+            "end": 25.479,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 25.479,
+            "end": 27.6,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thank",
+            "great"
+          ],
+          "negative_indicators": [
+            "issue"
+          ],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thank"
+          ],
+          "urgency_indicators": [
+            "immediately"
+          ]
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 64
+        },
+        "outcomes": {
+          "resolved": true,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "sorry to"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.8572857142857147,
+          "agent_talk_ratio": 0.5793118773378765,
+          "customer_talk_ratio": 0.4206881226621235,
+          "turn_taking_frequency": 15.554979445205733,
+          "longest_silence": 0,
+          "call_duration": 27.001
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_6.wav",
+      "call_duration": 27.98,
+      "total_turns": 9,
+      "agent_talk_ratio": 0.5789849892780558,
+      "customer_talk_ratio": 0.4210150107219443,
+      "sentiment_score": 5,
+      "positive_indicators": 5,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 19.29949964260186,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.819,
+            "end": 4.719,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.719,
+            "end": 8.079,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.079,
+            "end": 11.239,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 11.239,
+            "end": 13.679,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 13.679,
+            "end": 17.899,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 17.899,
+            "end": 20.579,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 20.579,
+            "end": 24.399,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 24.399,
+            "end": 27.699,
+            "word_count": 4
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 27.699,
+            "end": 28.799,
+            "word_count": 4
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thanks",
+            "appreciate",
+            "thanks",
+            "great"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thanks",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 66
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "sorry about"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 9,
+          "agent_turns": 5,
+          "customer_turns": 4,
+          "avg_turn_duration": 3.108888888888889,
+          "agent_talk_ratio": 0.5789849892780558,
+          "customer_talk_ratio": 0.4210150107219443,
+          "turn_taking_frequency": 19.29949964260186,
+          "longest_silence": 0,
+          "call_duration": 27.98
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_7.wav",
+      "call_duration": 23.339000000000002,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.592955996400874,
+      "customer_talk_ratio": 0.4070440035991259,
+      "sentiment_score": 4,
+      "positive_indicators": 4,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 17.99562963280346,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.56,
+            "end": 4.98,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.98,
+            "end": 7.5,
+            "word_count": 10
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 7.5,
+            "end": 9.899,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 9.899,
+            "end": 14.699,
+            "word_count": 2
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.699,
+            "end": 19.119,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.119,
+            "end": 21.299,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 21.299,
+            "end": 23.899,
+            "word_count": 6
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "good",
+            "thank",
+            "perfect",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thank",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 53
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.334142857142857,
+          "agent_talk_ratio": 0.592955996400874,
+          "customer_talk_ratio": 0.4070440035991259,
+          "turn_taking_frequency": 17.99562963280346,
+          "longest_silence": 0,
+          "call_duration": 23.339000000000002
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_8.wav",
+      "call_duration": 26.099999999999998,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.5440229885057472,
+      "customer_talk_ratio": 0.4559770114942529,
+      "sentiment_score": 3,
+      "positive_indicators": 3,
+      "negative_indicators": 0,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 0,
+      "turn_taking_frequency": 16.091954022988507,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.539,
+            "end": 3.539,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 3.539,
+            "end": 8.6,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.6,
+            "end": 12.239,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 12.239,
+            "end": 15.739,
+            "word_count": 3
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 15.739,
+            "end": 19.819,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 19.819,
+            "end": 23.159,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 23.159,
+            "end": 26.639,
+            "word_count": 10
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thanks",
+            "great",
+            "thanks"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "thanks",
+            "thanks"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 64
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.7285714285714286,
+          "agent_talk_ratio": 0.5440229885057472,
+          "customer_talk_ratio": 0.4559770114942529,
+          "turn_taking_frequency": 16.091954022988507,
+          "longest_silence": 0,
+          "call_duration": 26.099999999999998
+        }
+      }
+    },
+    {
+      "filename": "call_center_dialogue_9.wav",
+      "call_duration": 25.2,
+      "total_turns": 7,
+      "agent_talk_ratio": 0.6300793650793651,
+      "customer_talk_ratio": 0.36992063492063487,
+      "sentiment_score": 2,
+      "positive_indicators": 2,
+      "negative_indicators": 0,
+      "resolved": true,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 1,
+      "turn_taking_frequency": 16.666666666666668,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.579,
+            "end": 4.299,
+            "word_count": 12
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.299,
+            "end": 8.239,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 8.239,
+            "end": 12.899,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 12.899,
+            "end": 14.68,
+            "word_count": 3
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 14.68,
+            "end": 18.579,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 18.579,
+            "end": 22.18,
+            "word_count": 9
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 22.18,
+            "end": 25.779,
+            "word_count": 11
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "great"
+          ],
+          "negative_indicators": [],
+          "polite_indicators": [
+            "please",
+            "thank"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 70
+        },
+        "outcomes": {
+          "resolved": true,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "using Outlook"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 7,
+          "agent_turns": 4,
+          "customer_turns": 3,
+          "avg_turn_duration": 3.6,
+          "agent_talk_ratio": 0.6300793650793651,
+          "customer_talk_ratio": 0.36992063492063487,
+          "turn_taking_frequency": 16.666666666666668,
+          "longest_silence": 0,
+          "call_duration": 25.2
+        }
+      }
+    },
+    {
+      "filename": "call_recording1.mp3",
+      "call_duration": 53.42,
+      "total_turns": 15,
+      "agent_talk_ratio": 0.6147135904155747,
+      "customer_talk_ratio": 0.38528640958442534,
+      "sentiment_score": 4,
+      "positive_indicators": 6,
+      "negative_indicators": 2,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": true,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 1,
+      "names_found": 4,
+      "turn_taking_frequency": 16.847622613253463,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 1.659,
+            "end": 5.719,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 5.719,
+            "end": 9.46,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 9.46,
+            "end": 14.899,
+            "word_count": 18
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 14.899,
+            "end": 19.439,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 19.439,
+            "end": 25.319,
+            "word_count": 20
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 25.319,
+            "end": 27.859,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 27.859,
+            "end": 35.52,
+            "word_count": 24
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 35.52,
+            "end": 38.4,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 38.4,
+            "end": 39.459,
+            "word_count": 1
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 39.459,
+            "end": 42.9,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 42.9,
+            "end": 48.42,
+            "word_count": 16
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 48.42,
+            "end": 50.06,
+            "word_count": 5
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 50.06,
+            "end": 52.659,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 52.659,
+            "end": 54.459,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 54.459,
+            "end": 55.079,
+            "word_count": 1
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thanks",
+            "great",
+            "great",
+            "thanks",
+            "thank"
+          ],
+          "negative_indicators": [
+            "trouble",
+            "problem"
+          ],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thanks",
+            "thanks",
+            "thank"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 167
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": true
+        },
+        "key_info": {
+          "account_numbers": [
+            "123456"
+          ],
+          "phone_numbers": [],
+          "names": [
+            "John",
+            "having trouble",
+            "Jill Doe",
+            "now connected"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 15,
+          "agent_turns": 8,
+          "customer_turns": 7,
+          "avg_turn_duration": 3.5613333333333332,
+          "agent_talk_ratio": 0.6147135904155747,
+          "customer_talk_ratio": 0.38528640958442534,
+          "turn_taking_frequency": 16.847622613253463,
+          "longest_silence": 0,
+          "call_duration": 53.42
+        }
+      }
+    },
+    {
+      "filename": "call_recording2.mp3",
+      "call_duration": 57.16,
+      "total_turns": 13,
+      "agent_talk_ratio": 0.6844646606018194,
+      "customer_talk_ratio": 0.31553533939818057,
+      "sentiment_score": 2,
+      "positive_indicators": 3,
+      "negative_indicators": 1,
+      "resolved": false,
+      "escalated": false,
+      "customer_satisfied": true,
+      "technical_issue": false,
+      "avg_confidence": 0.0,
+      "low_confidence_percentage": 0.0,
+      "account_numbers_found": 0,
+      "names_found": 4,
+      "turn_taking_frequency": 13.64590622813156,
+      "longest_silence": 0,
+      "detailed_analysis": {
+        "turns": [
+          {
+            "speaker": "speaker_0",
+            "start": 0.219,
+            "end": 4.239,
+            "word_count": 14
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 4.239,
+            "end": 7.639,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 7.639,
+            "end": 13.26,
+            "word_count": 18
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 13.26,
+            "end": 18.26,
+            "word_count": 11
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 18.26,
+            "end": 30.2,
+            "word_count": 35
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 30.2,
+            "end": 33.139,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 33.139,
+            "end": 37.18,
+            "word_count": 8
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 37.18,
+            "end": 39.379,
+            "word_count": 6
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 39.379,
+            "end": 48.68,
+            "word_count": 29
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 48.68,
+            "end": 52.119,
+            "word_count": 13
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 52.119,
+            "end": 55.92,
+            "word_count": 7
+          },
+          {
+            "speaker": "speaker_1",
+            "start": 55.92,
+            "end": 56.979,
+            "word_count": 2
+          },
+          {
+            "speaker": "speaker_0",
+            "start": 56.979,
+            "end": 57.379,
+            "word_count": 1
+          }
+        ],
+        "sentiment": {
+          "positive_indicators": [
+            "thank",
+            "thanks",
+            "thank"
+          ],
+          "negative_indicators": [
+            "trouble"
+          ],
+          "polite_indicators": [
+            "thank",
+            "sorry",
+            "thanks",
+            "please",
+            "sorry",
+            "thank"
+          ],
+          "urgency_indicators": []
+        },
+        "confidence": {
+          "avg_confidence": 0.0,
+          "min_confidence": 0.0,
+          "max_confidence": 0.0,
+          "low_confidence_words": 0,
+          "total_words": 160
+        },
+        "outcomes": {
+          "resolved": false,
+          "escalated": false,
+          "callback_scheduled": false,
+          "customer_satisfied": true,
+          "technical_issue": false
+        },
+        "key_info": {
+          "account_numbers": [],
+          "phone_numbers": [],
+          "names": [
+            "Joe",
+            "having trouble",
+            "James Doe",
+            "sorry"
+          ],
+          "email_addresses": []
+        },
+        "metrics": {
+          "total_turns": 13,
+          "agent_turns": 7,
+          "customer_turns": 6,
+          "avg_turn_duration": 4.396923076923077,
+          "agent_talk_ratio": 0.6844646606018194,
+          "customer_talk_ratio": 0.31553533939818057,
+          "turn_taking_frequency": 13.64590622813156,
+          "longest_silence": 0,
+          "call_duration": 57.16
+        }
+      }
+    }
+  ]
+}
